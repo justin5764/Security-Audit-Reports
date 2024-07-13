@@ -1,0 +1,68 @@
+Security Audit Report for NVIDIA's Main Website
+
+Overview
+
+The following security audit report evaluates NVIDIA's main website. This tool identified several tracking technologies and third-party services that could have significant implications for user privacy and data security. The findings highlight the extensive use of ad trackers, third-party cookies, canvas fingerprinting, session recording, and data sharing with various ad-tech companies.
+
+Key Findings
+Ad Trackers
+
+    Number of Ad Trackers: 27
+    Comparison to Popular Sites: Significantly higher than the average of 7 ad trackers found on popular sites.
+    Data Sent to Companies: Data is sent to multiple companies involved in online advertising, including Reddit Inc. and Magnite, Inc.
+    Implications: Ad trackers build advertising profiles or identify users for ad targeting, potentially compromising user privacy.
+
+Third-Party Cookies
+
+    Number of Third-Party Cookies: 53
+    Comparison to Popular Sites: Much higher than the average of 3 third-party cookies found on popular sites.
+    Cookies Set By: Companies like eyeota Limited and Magnite, Inc.
+    Implications: Third-party cookies are commonly used by advertising tracking companies to profile users based on their internet usage, raising privacy concerns.
+
+Canvas Fingerprinting
+
+    Detection: Canvas fingerprinting detected, specifically a script from Clickagy.
+    Purpose: While the exact purpose (user behavior monitoring, fraud prevention, or bot detection) is undetermined, canvas fingerprinting is generally used to track users even if they block third-party cookies.
+    Implications: Canvas fingerprinting can uniquely identify users and track their behavior across sites, leading to significant privacy issues.
+
+Session Recording
+
+    Detection: Session recording detected, with scripts from Hotjar Ltd.
+    Functionality: Tracks user mouse movement, clicks, taps, scrolls, and network activity, compiling the data into videos and heatmaps.
+    Implications: Session recording can be insecure and make sensitive user data (e.g., passwords, credit card information) more vulnerable to leaks.
+
+Keylogging
+
+    Detection: No keylogging detected.
+    Implications: This is a positive aspect, as keylogging can capture text typed by users before submission, potentially leading to identity theft.
+
+Facebook Pixel
+
+    Detection: Facebook Pixel present.
+    Functionality: Sends data back to Facebook about site visitors, allowing for targeted ads on Facebook.
+    Implications: Facebook Pixel enables detailed user tracking, contributing to extensive profiling and targeted advertising.
+
+Google Analytics Remarketing Audiences
+
+    Detection: Not found on this site.
+    Functionality: This feature, when used, tracks users for targeted advertising across the internet.
+    Implications: The absence of this feature reduces the extent of cross-site tracking and targeted advertising.
+
+Data Sharing with Ad-Tech Companies
+
+    Companies Involved: Adobe, Alphabet (Google), Hotjar, LinkedIn, Lotame, Magnite, TowerData, and others.
+    Domains Contacted: Includes adobedtm.com, doubleclick.net, hotjar.com, licdn.com, crwdcntrl.net, rubiconproject.com, and rlcdn.com.
+    Implications: Sharing user data with these companies contributes to extensive profiling and targeting, impacting user privacy.
+
+Recommendations
+
+    Reduce Ad Trackers and Third-Party Cookies: Limit the number of ad trackers and third-party cookies to protect user privacy.
+    Review and Regulate Canvas Fingerprinting: Evaluate the necessity of canvas fingerprinting and ensure its use is justified for fraud prevention or bot detection rather than user behavior monitoring.
+    Enhance Session Recording Practices: Ensure session recording is secure and does not expose sensitive user data. Consider anonymizing recorded data.
+    Evaluate Use of Facebook Pixel: Assess the necessity of the Facebook Pixel and explore less invasive alternatives for user tracking and targeting.
+    Transparency and User Consent: Clearly inform users about tracking practices and obtain explicit consent before implementing tracking technologies.
+    Regular Security Audits: Conduct regular security audits to identify and address privacy and security issues promptly.
+
+Conclusion
+
+The Blacklight inspection highlights several privacy and security concerns on NVIDIA's main website, particularly related to extensive tracking and data sharing practices. By implementing the recommended measures, NVIDIA can enhance user privacy and security, building greater trust with its user base.
